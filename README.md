@@ -1,4 +1,4 @@
-This read me file describes the steps to run the code for "Context-Aware Sequential Model for Multi-Behavioral Recommendations" paper.
+This read me file describes the steps to run the code for "[Context-Aware Sequential Model for Multi-Behavioral Recommendations](https://arxiv.org/abs/2312.09684)" paper.
 
 Requirements*
 1- numpy

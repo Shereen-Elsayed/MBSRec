@@ -1,4 +1,4 @@
-This read me file describes the steps to run the code for "Multi-Behavioral Sequential Recommendation" paper accepted as short paper in RecSys 2024.
+This read me file describes the steps to run the code for "Multi-Behavioral Sequential Recommendation" paper accepted as short paper at RecSys 2024.
 
 Requirements*
 1- numpy

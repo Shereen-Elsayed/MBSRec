@@ -1,0 +1,11 @@
+batch_size,128
+dataset,Tmall
+dropout_rate,0.25
+hidden_units,85
+l2_emb,0.0
+lr,0.0005
+maxlen,150
+num_blocks,1
+num_epochs,801
+num_heads,1
+train_dir,default

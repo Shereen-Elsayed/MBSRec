@@ -15,7 +15,7 @@ def str2bool(s):
     return s == 'True'
 
 
-parser = argparse.ArgumentParser()
+parser = argparse.ArgumentParser() 
 parser.add_argument('--dataset', required=True)
 parser.add_argument('--train_dir', required=True)
 parser.add_argument('--batch_size', default=128, type=int)
@@ -59,12 +59,14 @@ print('here')
 [user_train, user_valid, user_test, Beh, Beh_w, usernum, itemnum] = dataset
 print(usernum,'-',itemnum)
 num_batch = len(user_train) / args.batch_size
+
 cc = 0.0
 for u in user_train:
     cc += len(user_train[u])
 print ('average sequence length: %.2f' % (cc / len(user_train)))
 
 f = open(os.path.join(args.dataset + '_' + args.train_dir, 'log.txt'), 'w')
+#创建一个 TensorFlow 的配置对象，设置 GPU 内存增长选项为开启以及允许软设备放置。最后，使用这个配置创建一个 TensorFlow 的会话对象。
 config = tf.compat.v1.ConfigProto()
 config.gpu_options.allow_growth = True
 config.allow_soft_placement = True

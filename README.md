@@ -11,3 +11,6 @@ Requirements*
 ```
 python main.py
 ```
+
+Papers with code:
+https://paperswithcode.com/paper/multi-behavioral-sequential-recommendation
